@@ -173,3 +173,148 @@ h9{
     margin:20px;
     background-color: #1B7092;
 }
+
+
+.Aflex{
+    display:flex;
+    flex-direction: row;
+}
+.left2{
+    background-color: #091868;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    height: 700px;
+}
+h10{
+    color:white;
+    margin:15px;
+    margin-top:20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.navright2{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    background-color: #FFC83B;
+    width:1020px;
+}
+.nav-left2, .nav-right2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+h11{
+    font-size:40px;
+    margin:20px;
+}
+.right2bottom{
+    background-color: #054CBF;
+    padding-top:60px;
+    padding-left:60px;
+    padding-bottom:60px;
+    display: flex;
+    flex-direction: row;
+}
+.assigmentsflex, .attendenceflex{
+    display:flex;
+    flex-direction: row;
+}
+h12{
+    color:white;
+    font-size:30px;
+    margin-left:20px;
+}
+.assigmentsflexleft, .assigmentsflexright, .attendenceflexleft{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+.assigmentsflexleftright{
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+}
+.attendenceflexright{
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+.assigmentsflexright, .attendenceflexright{
+    padding-left:50px;
+}
+.A2{
+    height:30px;
+    margin-left:10px;
+}
+.seemore{
+    float:right;
+    color:white;
+    text-decoration: underline;
+    padding-right:100px;
+}
+.gradeB{
+    background-color: #091868;
+    color:white;
+    font-weight: bold;
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+    font-size: 200px;
+    padding-left:30px;
+    margin-top:50px;
+}
+.email{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    background-color: #091868;
+    border-radius: 40px;
+    margin-top:40px;
+    padding:20px;
+    font-size:20px;
+    padding-left:30px;
+    padding-right:30px;
+    width:270px;
+}
+.mailimg{
+    width:40px;
+    height:30px;
+    padding-right:20px;
+}
+.right2bottomright{
+    margin-left:100px;
+}
+.attendence{
+    margin-top:50px;
+}
+.attendenceflexleftright{
+    display:flex;
+    flex-direction: row;
+}
+.right2bottomrightright{
+    background-color: #091868;
+    width:38px;
+    height:150px;
+    margin-left:120px;
+    margin-top:150px;
+}
+.arrow{
+    width:17px;
+    padding-left:10px;
+    padding-right:15px;
+    padding-top:70px;
+}
+.right2bottomleft{
+    width:400px;
+}
+.logo{
+    margin-top:20px;
+    width:200px;
+}
