@@ -512,7 +512,7 @@ h17{
     display:flex;
     flex-direction: column;
 }
-.batteriestop{
+.batteriestop, .batteriestop2, .batteriestop3{
     border-top: 5px solid black;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -522,6 +522,16 @@ h17{
     height:50px;
     align-self: center;
     background-color: white;
+    position: absolute;
+}
+.batteriestop{
+    top:194px;
+}
+.batteriestop2{
+    top:163px;
+}
+.batteriestop3{
+    top:228px;
 }
 .homeworkname{
     width:140px;
@@ -531,6 +541,7 @@ h17{
     border-radius:20px;
     border-image:linear-gradient(to right, black 33% white 33% black 33%);
     border-image-slice: 1;
+    margin-top:45px;
 }
 h15{
     font-weight: bold;
