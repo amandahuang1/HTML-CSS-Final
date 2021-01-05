@@ -721,3 +721,156 @@ h26{
     flex-direction: column;
     margin-top:100px;
 }
+
+.flex5{
+    display:flex;
+    flex-direction: row;
+}
+.right5{
+    background-color:#73E0CE;
+}
+.picture{
+    width:50px;
+    height:60px;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.picture1{
+    width:70px;
+    height:50px;
+    margin-right:20px;
+}
+h27{
+    font-weight: bold;
+    font-size: 25px;
+}
+.topleft{
+    align-items: center;
+}
+.flexrow{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+h28{
+    font-weight:bold;
+    font-size: 40px;
+}
+.organgecircle{
+    width:15px;
+    height:15px;
+    background-color: #F4b30c;
+    border-radius: 20px;
+    margin-right:20px;
+}
+.greencircle{
+    width:15px;
+    height:15px;
+    background-color:#73E0CE;
+    border-radius: 20px;
+    margin-right:20px;
+}
+.bottomleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+}
+.left5{
+    width:1000px;
+    justify-content: center;
+    align-items:center;
+}
+h30{
+    font-size: 30px;
+}
+.picture2{
+    width:40px;
+    height:60px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.topright{
+    margin-left:200px;
+}
+h32{
+    border-radius: 20px;
+}
+.whitenote{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    width:130px;
+    border-radius:15px;
+    padding:20px;
+    margin-top: 15px;
+}
+.monthcalender{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    width:220px;
+    border-radius:15px;
+    padding:10px;
+    margin-top: 15px;
+}
+h34{
+    background-color: #FF6F6F;
+    border-radius:15px;
+    width:55px;
+}
+.Note{
+    display:flex;
+    flex-direction: column;
+
+}
+.right5{
+    width:300px;
+    padding-left:70px;
+}
+.picture3{
+    width:70px;
+    height:70px;
+    margin-top:10px;
+    margin-right:20px;
+}
+h31, h33, h34{
+    font-weight: bold;
+}
+.Month ul li {
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.weekdays {
+    padding: 10px;
+}
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: rgb(0, 0, 0);
+}
+.days {
+    padding: 2px;
+}
+h33{
+    background-color: #FFC83B;
+    border-radius: 20px;
+}
+.Month, .Note{
+    margin-top:40px;
+}
+.Note{
+    margin-bottom:20px;
+}
